@@ -12,4 +12,8 @@ transformers
 PyPDF2
 streamlit
 
--e .
+
+# Above all are global packages downloaded directly from PyPI
+
+-e .   # This command is used to install the package in editable mode.Modifications to the package will be reflected in the installed package.
+        # This is a local package. It is not uploaded to PyPI. '.' refers to the current directory.This will search the current directory for a file named setup.py and install the package or local directory or local package.
